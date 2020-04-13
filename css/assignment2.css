@@ -39,17 +39,33 @@ p {
     margin-right: 10px;
     margin-bottom: 30px;
   }
+  #col-sushi{
+  float: left;
+  width: 375px;
+  height: 150px; 
+  border: 1px solid black;
+  background-color: #C0C0C0;
+  overflow: auto;
+  } 
 }
 /*.......... Tablet Version ...........*/ 
-@media (min-width: 768px) and (max-width: 991px) {
-  .sizecolumn-tablet{
-    float: left;
+@media (min-width: 768px) and (max-width: 991px) { 
+  .sizecolumn-tablet{    
     width: 66.66%;
     height: 150px; 
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
+    float: left;
   }
+  #col-sushi{
+  float: left;
+  width: 770px;
+  height: 150px; 
+  border: 1px solid black;
+  background-color: #C0C0C0;
+  overflow: auto;
+  } 
 }
 /*.......... Mobile Version ...........*/ 
 @media (max-width: 767px) {
@@ -61,6 +77,14 @@ p {
     margin-right: 10px;
     margin-bottom: 30px;
   }
+  #col-sushi{
+  float: left;
+  width: 375px;
+  height: 150px; 
+  border: 1px solid black;
+  background-color: #C0C0C0;
+  overflow: auto;
+  } 
 }
 /*....................................*/ 
 .menu{
