@@ -1,29 +1,88 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Module 2 Coding Assignment</title>
-	<link rel="stylesheet" href="css/assignment2.css">  
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Coding Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">   
+  </head>
 <body>
-<h1>Our Menu</h1>
-<div class="row"> 
-  <div class="sizecolumn-desktop sizecolumn-tablet sizecolumn-mobile" id="column">
-  	<div class="menu" id="chicken">Chicken</div>
-  	<p> dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"
-  	dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"</p>
-  </div>
-  <div class="sizecolumn-desktop sizecolumn-tablet sizecolumn-mobile" id="column">
-  	<div class="menu" id="beef">Beef</div>
-  	<p> dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"
-  	dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"</p>
-  </div>
-  <div class="sizecolumn-desktop sizecolumn-tablet sizecolumn-mobile" id="col-sushi">
-  	<div class="menu" id="sushi">Sushi</div>
-  	<p> dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"
-  	dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum" dummy text/"lorem ipsum"</p>
-  </div>
-</div>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand" class="pull-left">
+              <h1>Food, LLC</h1>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="visible-xs active">
+                <a href="#chicken">Chicken</a>
+              </li>
+              <li class="visible-xs">
+                <a href="#beef" id="b">Beef</a>
+              </li>
+              <li class="visible-xs">
+                <a href="#sushi">Sushi</a>
+              </li>            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav>
+  </header>
+
+<div id="main-content" class="container">
+      <div class="text-center"><h1>Our Menu</h1></div>
+
+      <div class="row">
+        <div id="lorem-ipsum" class="col-md-12 col-sm-12 col-xs-12">
+          <div id= "chicken" class="text-center"><h2>Chicken</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan lacus. Ultricies integer quis auctor elit. Vitae proin sagittis nisl rhoncus mattis. Neque aliquam vestibulum morbi blandit cursus risus at. A diam maecenas sed enim ut sem. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Nunc congue nisi vitae suscipit tellus mauris a diam. Velit egestas dui id ornare arcu odio ut. Consectetur libero id faucibus nisl tincidunt. Nibh tellus molestie nunc non blandit. Pharetra sit amet aliquam id diam maecenas. Amet volutpat consequat mauris nunc congue nisi. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.</p>
+
+            <p>Adipiscing at in tellus integer feugiat scelerisque varius. Ac auctor augue mauris augue neque. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Purus semper eget duis at tellus at urna condimentum. Sit amet massa vitae tortor condimentum lacinia. Scelerisque eleifend donec pretium vulputate. Tristique nulla aliquet enim tortor at auctor urna nunc id. Gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Id neque aliquam vestibulum morbi blandit cursus risus. Risus commodo viverra maecenas accumsan lacus. Malesuada proin libero nunc consequat. Ipsum dolor sit amet consectetur adipiscing elit duis.</p>
+
+            <p>Integer eget aliquet nibh praesent tristique magna. Id volutpat lacus laoreet non curabitur gravida arcu. Vitae aliquet nec ullamcorper sit amet risus nullam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Odio eu feugiat pretium nibh ipsum. Proin libero nunc consequat interdum varius. Aliquam etiam erat velit scelerisque. Enim nulla aliquet porttitor lacus luctus accumsan. Aliquam ultrices sagittis orci a scelerisque purus. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Urna nunc id cursus metus aliquam. Lectus nulla at volutpat diam ut. Hendrerit gravida rutrum quisque non tellus. Vulputate dignissim suspendisse in est ante in nibh mauris. Etiam sit amet nisl purus in mollis nunc sed.</p>
+        </div>
+
+        <div class="clearfix visible-md-block visible-xs-block"></div>
+        <div id="lorem-ipsum" class="col-md-12 col-sm-12 col-xs-12">
+          <div id= "beef"class="text-center"><h2>Beef</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan lacus. Ultricies integer quis auctor elit. Vitae proin sagittis nisl rhoncus mattis. Neque aliquam vestibulum morbi blandit cursus risus at. A diam maecenas sed enim ut sem. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Nunc congue nisi vitae suscipit tellus mauris a diam. Velit egestas dui id ornare arcu odio ut. Consectetur libero id faucibus nisl tincidunt. Nibh tellus molestie nunc non blandit. Pharetra sit amet aliquam id diam maecenas. Amet volutpat consequat mauris nunc congue nisi. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.</p>
+
+            <p>Adipiscing at in tellus integer feugiat scelerisque varius. Ac auctor augue mauris augue neque. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Purus semper eget duis at tellus at urna condimentum. Sit amet massa vitae tortor condimentum lacinia. Scelerisque eleifend donec pretium vulputate. Tristique nulla aliquet enim tortor at auctor urna nunc id. Gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Id neque aliquam vestibulum morbi blandit cursus risus. Risus commodo viverra maecenas accumsan lacus. Malesuada proin libero nunc consequat. Ipsum dolor sit amet consectetur adipiscing elit duis.</p>
+
+            <p>Integer eget aliquet nibh praesent tristique magna. Id volutpat lacus laoreet non curabitur gravida arcu. Vitae aliquet nec ullamcorper sit amet risus nullam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Odio eu feugiat pretium nibh ipsum. Proin libero nunc consequat interdum varius. Aliquam etiam erat velit scelerisque. Enim nulla aliquet porttitor lacus luctus accumsan. Aliquam ultrices sagittis orci a scelerisque purus. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Urna nunc id cursus metus aliquam. Lectus nulla at volutpat diam ut. Hendrerit gravida rutrum quisque non tellus. Vulputate dignissim suspendisse in est ante in nibh mauris. Etiam sit amet nisl purus in mollis nunc sed.</p>
+            <p><a href="#header-nav" class="pull-right">Back to top</a></p>
+        </div>
+
+        <div class="clearfix visible-md-block visible-xs-block"></div>
+        <div id="lorem-ipsum" class="col-md-12 col-sm-12 col-xs-12">
+          <div id= "sushi" class="text-center"><h2>Sushi</h2></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc vel risus commodo viverra maecenas accumsan lacus. Ultricies integer quis auctor elit. Vitae proin sagittis nisl rhoncus mattis. Neque aliquam vestibulum morbi blandit cursus risus at. A diam maecenas sed enim ut sem. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Nunc congue nisi vitae suscipit tellus mauris a diam. Velit egestas dui id ornare arcu odio ut. Consectetur libero id faucibus nisl tincidunt. Nibh tellus molestie nunc non blandit. Pharetra sit amet aliquam id diam maecenas. Amet volutpat consequat mauris nunc congue nisi. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.</p>
+
+            <p>Adipiscing at in tellus integer feugiat scelerisque varius. Ac auctor augue mauris augue neque. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Purus semper eget duis at tellus at urna condimentum. Sit amet massa vitae tortor condimentum lacinia. Scelerisque eleifend donec pretium vulputate. Tristique nulla aliquet enim tortor at auctor urna nunc id. Gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id donec ultrices. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Id neque aliquam vestibulum morbi blandit cursus risus. Risus commodo viverra maecenas accumsan lacus. Malesuada proin libero nunc consequat. Ipsum dolor sit amet consectetur adipiscing elit duis.</p>
+
+            <p>Integer eget aliquet nibh praesent tristique magna. Id volutpat lacus laoreet non curabitur gravida arcu. Vitae aliquet nec ullamcorper sit amet risus nullam. Ut sem nulla pharetra diam sit amet nisl suscipit adipiscing. Odio eu feugiat pretium nibh ipsum. Proin libero nunc consequat interdum varius. Aliquam etiam erat velit scelerisque. Enim nulla aliquet porttitor lacus luctus accumsan. Aliquam ultrices sagittis orci a scelerisque purus. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet. Eu scelerisque felis imperdiet proin fermentum leo vel orci porta. Urna nunc id cursus metus aliquam. Lectus nulla at volutpat diam ut. Hendrerit gravida rutrum quisque non tellus. Vulputate dignissim suspendisse in est ante in nibh mauris. Etiam sit amet nisl purus in mollis nunc sed.</p>
+            <p><a href="#header-nav" class="pull-right">Back to top</a></p>
+        </div>
+
+      </div><!-- .row -->
+  </div><!-- #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
