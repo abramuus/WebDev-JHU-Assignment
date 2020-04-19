@@ -29,9 +29,6 @@ p{
   margin: auto;
   line-height: .75;
 }
-.navbar-brand {
-  text-decoration: none;
-}
 #header-nav {
   background-color: #C0C0C0;  
   border-radius: 0;
